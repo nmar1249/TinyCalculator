@@ -53,122 +53,136 @@
             // 
             // Display
             // 
-            this.Display.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Display.BackColor = System.Drawing.SystemColors.Info;
+            this.Display.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Display.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Display.Font = new System.Drawing.Font("Consolas", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Display.Location = new System.Drawing.Point(12, 12);
             this.Display.Name = "Display";
             this.Display.ReadOnly = true;
+            this.Display.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Display.Size = new System.Drawing.Size(339, 89);
             this.Display.TabIndex = 0;
-            this.Display.Text = "";
+            this.Display.Text = "0";
             // 
             // B1
             // 
+            this.B1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.B1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B1.Location = new System.Drawing.Point(12, 305);
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(80, 60);
             this.B1.TabIndex = 1;
             this.B1.Text = "1";
-            this.B1.UseVisualStyleBackColor = true;
+            this.B1.UseVisualStyleBackColor = false;
             this.B1.Click += new System.EventHandler(this.B1_Click);
             // 
             // B2
             // 
+            this.B2.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.B2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B2.Location = new System.Drawing.Point(98, 305);
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(80, 60);
             this.B2.TabIndex = 2;
             this.B2.Text = "2";
-            this.B2.UseVisualStyleBackColor = true;
+            this.B2.UseVisualStyleBackColor = false;
             this.B2.Click += new System.EventHandler(this.B2_Click);
             // 
             // B3
             // 
+            this.B3.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.B3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B3.Location = new System.Drawing.Point(185, 305);
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(80, 60);
             this.B3.TabIndex = 3;
             this.B3.Text = "3";
-            this.B3.UseVisualStyleBackColor = true;
+            this.B3.UseVisualStyleBackColor = false;
             this.B3.Click += new System.EventHandler(this.B3_Click);
             // 
             // B4
             // 
+            this.B4.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.B4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B4.Location = new System.Drawing.Point(12, 239);
             this.B4.Name = "B4";
             this.B4.Size = new System.Drawing.Size(80, 60);
             this.B4.TabIndex = 4;
             this.B4.Text = "4";
-            this.B4.UseVisualStyleBackColor = true;
+            this.B4.UseVisualStyleBackColor = false;
             this.B4.Click += new System.EventHandler(this.B4_Click);
             // 
             // B5
             // 
+            this.B5.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.B5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B5.Location = new System.Drawing.Point(98, 239);
             this.B5.Name = "B5";
             this.B5.Size = new System.Drawing.Size(80, 60);
             this.B5.TabIndex = 5;
             this.B5.Text = "5";
-            this.B5.UseVisualStyleBackColor = true;
+            this.B5.UseVisualStyleBackColor = false;
             this.B5.Click += new System.EventHandler(this.B5_Click);
             // 
             // B6
             // 
+            this.B6.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.B6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B6.Location = new System.Drawing.Point(184, 239);
             this.B6.Name = "B6";
             this.B6.Size = new System.Drawing.Size(80, 60);
             this.B6.TabIndex = 6;
             this.B6.Text = "6";
-            this.B6.UseVisualStyleBackColor = true;
+            this.B6.UseVisualStyleBackColor = false;
             this.B6.Click += new System.EventHandler(this.B6_Click);
             // 
             // B7
             // 
+            this.B7.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.B7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B7.Location = new System.Drawing.Point(12, 173);
             this.B7.Name = "B7";
             this.B7.Size = new System.Drawing.Size(80, 60);
             this.B7.TabIndex = 7;
             this.B7.Text = "7";
-            this.B7.UseVisualStyleBackColor = true;
+            this.B7.UseVisualStyleBackColor = false;
             this.B7.Click += new System.EventHandler(this.B7_Click);
             // 
             // B8
             // 
+            this.B8.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.B8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B8.Location = new System.Drawing.Point(98, 173);
             this.B8.Name = "B8";
             this.B8.Size = new System.Drawing.Size(80, 60);
             this.B8.TabIndex = 8;
             this.B8.Text = "8";
-            this.B8.UseVisualStyleBackColor = true;
+            this.B8.UseVisualStyleBackColor = false;
             this.B8.Click += new System.EventHandler(this.B8_Click);
             // 
             // B9
             // 
+            this.B9.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.B9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B9.Location = new System.Drawing.Point(185, 173);
             this.B9.Name = "B9";
             this.B9.Size = new System.Drawing.Size(80, 60);
             this.B9.TabIndex = 9;
             this.B9.Text = "9";
-            this.B9.UseVisualStyleBackColor = true;
+            this.B9.UseVisualStyleBackColor = false;
             this.B9.Click += new System.EventHandler(this.B9_Click);
             // 
             // B0
             // 
+            this.B0.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.B0.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B0.Location = new System.Drawing.Point(98, 371);
             this.B0.Name = "B0";
             this.B0.Size = new System.Drawing.Size(80, 60);
             this.B0.TabIndex = 10;
             this.B0.Text = "0";
-            this.B0.UseVisualStyleBackColor = true;
+            this.B0.UseVisualStyleBackColor = false;
             this.B0.Click += new System.EventHandler(this.B0_Click);
             // 
             // Decimal
@@ -250,35 +264,39 @@
             // 
             // DeleteLastNumber
             // 
+            this.DeleteLastNumber.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.DeleteLastNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteLastNumber.Location = new System.Drawing.Point(185, 107);
             this.DeleteLastNumber.Name = "DeleteLastNumber";
             this.DeleteLastNumber.Size = new System.Drawing.Size(80, 60);
             this.DeleteLastNumber.TabIndex = 18;
             this.DeleteLastNumber.Text = "<-";
-            this.DeleteLastNumber.UseVisualStyleBackColor = true;
+            this.DeleteLastNumber.UseVisualStyleBackColor = false;
             this.DeleteLastNumber.Click += new System.EventHandler(this.DeleteLastNumber_Click);
             // 
             // Clear
             // 
+            this.Clear.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Clear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Clear.Location = new System.Drawing.Point(98, 108);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(80, 60);
             this.Clear.TabIndex = 19;
             this.Clear.Text = "C";
-            this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.UseVisualStyleBackColor = false;
             this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // ClearE
             // 
+            this.ClearE.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClearE.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClearE.Location = new System.Drawing.Point(12, 107);
             this.ClearE.Name = "ClearE";
             this.ClearE.Size = new System.Drawing.Size(80, 60);
             this.ClearE.TabIndex = 20;
-            this.ClearE.Text = "C";
-            this.ClearE.UseVisualStyleBackColor = true;
+            this.ClearE.Text = "CE";
+            this.ClearE.UseVisualStyleBackColor = false;
             this.ClearE.Click += new System.EventHandler(this.ClearE_Click);
             // 
             // Form1
