@@ -1,0 +1,12 @@
+c:\users\nick\documents\visual studio 2015\Projects\TinyCalculator\TinyCalculator\bin\Debug\TinyCalculator.exe.config
+c:\users\nick\documents\visual studio 2015\Projects\TinyCalculator\TinyCalculator\bin\Debug\TinyCalculator.exe
+c:\users\nick\documents\visual studio 2015\Projects\TinyCalculator\TinyCalculator\bin\Debug\TinyCalculator.pdb
+c:\users\nick\documents\visual studio 2015\Projects\TinyCalculator\TinyCalculator\obj\Debug\TinyCalculator.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2015\Projects\TinyCalculator\TinyCalculator\obj\Debug\TinyCalculator.Form1.resources
+c:\users\nick\documents\visual studio 2015\Projects\TinyCalculator\TinyCalculator\obj\Debug\TinyCalculator.Properties.Resources.resources
+c:\users\nick\documents\visual studio 2015\Projects\TinyCalculator\TinyCalculator\obj\Debug\TinyCalculator.csproj.GenerateResource.Cache
+c:\users\nick\documents\visual studio 2015\Projects\TinyCalculator\TinyCalculator\obj\Debug\TinyCalculator.exe
+c:\users\nick\documents\visual studio 2015\Projects\TinyCalculator\TinyCalculator\obj\Debug\TinyCalculator.pdb
+E:\Documents\GitHub\TinyCalculator\TinyCalculator\TinyCalculator\bin\Debug\TinyCalculator.exe.config
+E:\Documents\GitHub\TinyCalculator\TinyCalculator\TinyCalculator\obj\Debug\TinyCalculator.exe
+E:\Documents\GitHub\TinyCalculator\TinyCalculator\TinyCalculator\obj\Debug\TinyCalculator.pdb
