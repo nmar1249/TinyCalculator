@@ -3,7 +3,10 @@
  * Programmer:  Nick Marine
  * Version:     0.8
  * 
- * 
+ * Description:
+ * This is just a small project I wanted to do for some time. The first
+ * in a series of useless utility programs, the goal here is to practice C#
+ * development in a Windows environment.
  * 
  */
  
@@ -186,12 +189,20 @@ namespace TinyCalculator
 
         private void ClearE_Click(object sender, EventArgs e)
         {
-
+            if (s_input != "")
+            {
+                s_input = "";
+                Print();
+            }
         }
 
         private void Print()
         {
-            Display.Text = s_input;
+            if (s_input != "")
+                Display.Text = s_input;
+            else
+                Display.Text = "0";
+            
 
             if(flag_eq == true)
             {
