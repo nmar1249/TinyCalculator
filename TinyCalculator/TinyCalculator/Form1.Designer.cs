@@ -303,6 +303,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(358, 437);
             this.Controls.Add(this.ClearE);
             this.Controls.Add(this.Clear);
@@ -325,6 +326,8 @@
             this.Controls.Add(this.B2);
             this.Controls.Add(this.B1);
             this.Controls.Add(this.Display);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(374, 476);
             this.Name = "Form1";
             this.Text = "Tiny Calculator";
             this.ResumeLayout(false);

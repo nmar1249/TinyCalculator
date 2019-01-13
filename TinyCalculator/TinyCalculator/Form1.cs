@@ -242,7 +242,6 @@ namespace TinyCalculator
         }
         private void Calculate()
         {
-            Console.WriteLine("temp = " + temp + "s_input: " + s_input);
             if(temp != "" && s_input != "")
                 if(currentOp == "+")
                     s_input = (Double.Parse(temp) + Double.Parse(s_input)).ToString();
